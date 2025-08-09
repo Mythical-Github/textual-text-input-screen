@@ -6,6 +6,7 @@ This is a generic text input screen for textual apps.
 
 ## Video Example
 
+https://github.com/user-attachments/assets/df1d4ad7-b6b2-4afd-938e-b9cb27cb0f95
 
 ---
 
