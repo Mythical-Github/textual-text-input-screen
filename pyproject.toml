@@ -1,0 +1,26 @@
+[project]
+name = "textual-text-input-screen"
+version = "0.1.0"
+description = "A generic text input screen for textual apps."
+readme = "README.md"
+authors = [
+    { name = "Mythical-Github", email = "67753356+Mythical-Github@users.noreply.github.com" }
+]
+requires-python = ">=3.9.1"
+dependencies = [
+    "textual>=1.0.0",
+]
+
+[project.scripts]
+textual-text-input-screen = "textual_text_input_screen:main"
+
+[build-system]
+requires = ["uv_build>=0.7.19,<0.8"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+    "pyright>=1.1.403",
+    "ruff>=0.12.8",
+]
