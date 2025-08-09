@@ -1,4 +1,4 @@
-# Textual Setup Screen
+# Textual Text Input Screen
 
 This is a generic text input screen for textual apps.
 
