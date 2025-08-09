@@ -4,7 +4,7 @@ from textual.app import ComposeResult
 from textual.containers import VerticalScroll
 from textual.widgets import Header, Input, Static
 
-from textual_text_input_screen.base_widgets import (
+from textual_base_widgets.base_widgets import (
     BaseButton,
     BaseHorizontalBox,
     BaseLabel

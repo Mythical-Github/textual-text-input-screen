@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.9.1"
 dependencies = [
     "textual>=1.0.0",
+    "textual-base-widgets",
 ]
 
 [project.scripts]
@@ -24,3 +25,6 @@ dev = [
     "pyright>=1.1.403",
     "ruff>=0.12.8",
 ]
+
+[tool.uv.sources]
+textual-base-widgets = { git = "https://github.com/Mythical-Github/textual-base-widgets" }
